@@ -1,0 +1,14 @@
+.rate {
+    display: flex;
+    justify-content: space-between ;
+    width: 80%; 
+}
+
+@media screen and (max-width: 600px) {
+    .rate {
+        width: 20%; 
+    }
+    .rate img {
+        width: 13.5px;
+    }
+}

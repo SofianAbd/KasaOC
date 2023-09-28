@@ -1,0 +1,28 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.values-container {
+    margin: 0 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+@media screen and (max-width: 600px) {
+    .About  {
+        gap: 19px;
+    }
+    .About .banner {
+        height: 223px;
+    }
+    .values-container {
+        margin: 0;
+        gap: 20px;
+    }
+    .footer-text {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}

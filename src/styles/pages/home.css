@@ -1,0 +1,32 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    color: white;
+}
+
+.locations-container {
+    background-color: #F6F6F6;
+    padding: 56px 50px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    grid-row-gap: 50px;
+}
+.locations-container >* {
+    flex-basis: 30%;
+}
+
+@media screen and (max-width: 900px) {
+    .Home {
+        gap: 22px;
+    }
+    .locations-container {
+        background-color: #fff;
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-row-gap: 20px;
+    }
+}

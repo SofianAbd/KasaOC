@@ -1,0 +1,33 @@
+footer {
+    padding: 66px 0 29px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.footer-img {
+    width: 122px;
+    height: 34.5px;
+}
+.footer-text {
+    font-weight: 500px;
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 0px;
+        height: 210px;
+        justify-content: center;
+    }
+    .footer-img {
+        width: 122px;
+        height: 39.5px;
+    }
+    .footer-text {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
