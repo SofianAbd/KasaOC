@@ -1,4 +1,4 @@
-import '../../styles/pages/about.css';
+import '../../styles/pages/about.scss';
 import Banner from "../../components/Banner";
 import Collapse from "../../components/Collapse";
 import aboutBanner from "../../assets/imgs/about.jpeg";

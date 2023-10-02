@@ -1,4 +1,4 @@
-import '../../styles/pages/logement.css';
+import '../../styles/pages/logement.scss';
 import { useParams } from "react-router-dom";
 import locations from "../../logements.json"
 

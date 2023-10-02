@@ -1,0 +1,122 @@
+.Logement-introduction,
+.Logement-details {
+    display: flex;
+    justify-content: space-between;
+    color: #FF6060;
+}
+
+.carousel {
+    margin-bottom: 70px;
+}
+
+.Logement-introduction {
+    &_infos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-weight: 500;
+        padding-bottom: 20px;
+
+        &-title {
+            font-size: 36px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        &-location {
+            font-size: 18px;
+        }
+    }
+
+    &_hostnrate {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    &_host {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+
+        &-name {
+            text-align: right;
+            display: block;
+            font-size: 18px;
+            width: 40%;
+        }
+
+        &-photo {
+            width: 35%;
+            border-radius: 50%;
+        }
+    }
+}
+
+.Logement-details {
+    > * {
+        width: 45%;
+    }
+
+    * {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        margin-bottom: 15px;
+    }
+
+    .Logement-introduction {
+        flex-direction: column;
+
+        &_infos {
+            padding-bottom: 16px;
+            gap: 10px;
+
+            &-title {
+                font-size: 18px;
+            }
+
+            &-location {
+                font-size: 14px;
+            }
+        }
+
+        &_hostnrate {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16.5px;
+        }
+
+        &_host-name {
+            font-size: 12px;
+            width: 30%;
+        }
+
+        &_host-photo {
+            width: 17%;
+        }
+    }
+
+    .Logement-details {
+        flex-direction: column;
+        gap: 20px;
+
+        > * {
+            width: 100%;
+        }
+
+        .collapse-button_text {
+            font-size: 13px;
+        }
+
+        .collapse-content_text * {
+            font-size: 12px;
+        }
+    }
+}

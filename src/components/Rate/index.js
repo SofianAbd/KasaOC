@@ -1,4 +1,4 @@
-import '../../styles/components/rate.css';
+import '../../styles/components/rate.scss';
 import fullStar from "../../assets/imgs/fullStar.png";
 import emptyStar from "../../assets/imgs/emptyStar.png";
 

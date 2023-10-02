@@ -1,0 +1,47 @@
+header {
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-img {
+        width: 210px;
+        height: 68px;
+        object-fit: initial;
+    }
+
+    ul {
+        display: flex;
+        gap: 57px;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 24px;
+        color: #FF6060;
+
+        &:first-child {
+            text-decoration: underline;
+            color: #FF6060;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 20px;
+
+        .header-img {
+            width: 145px;
+            height: 47px;
+        }
+
+        ul {
+            gap: 10px;
+        }
+
+        a {
+            font-weight: 500;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+}

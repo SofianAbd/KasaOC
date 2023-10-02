@@ -1,4 +1,4 @@
-import '../../styles/components/carrousel.css';
+import '../../styles/components/carrousel.scss';
 import React, { useState } from 'react';
 import arrow from "../../assets/imgs/side-arrow.png";
 

@@ -1,4 +1,4 @@
-import '../../styles/components/collapse.css';
+import '../../styles/components/collapse.scss';
 import arrow from "../../assets/imgs/arrow.png";
 import React, { useState } from 'react';
 
